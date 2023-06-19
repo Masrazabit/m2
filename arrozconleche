@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Título de la página</title>
+</head>
+<body>
+    <center>
+        <p><strobg>Cocido de res</strobg></p>
+  <img src="cocido.jpg" width="400" height="200">
+  </center>
+  <p><strobg>Degusta un caldo de res, acompaño de sus verduras.</>
+  
+  <center>
+  <br><br><br><br><br><br>
+  <button onclick="cocido()">Elegir un plato cocido en $50</button>
+  
+  <h5>Haz comprado 1 Plato de cocido de res<br>Costo:$50<br>Fecha: lunes 19 de  Junio del 2023<br>Estado de pago: pendiente para mañana <hr> </h5>
+  
+  <br><br><br><br><br><br>
+  <button onclick="dosarroz()">Elegir 2 arroz por $25</button>
+  
+  <script>
+      function unaorden(){
+          document.write("<h6>Haz comprado un plato de res por $50</h6>");
+      }
+      
+  </script>
+    
+</body>
+</html>
